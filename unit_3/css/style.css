@@ -5,6 +5,31 @@ body {
 }
 
 h1, p {
-	color: #5aa0d1;
+	color: #1F1737;
 	font-size: 24px;
+	font-style: thin;
+	font-family: "Roboto", sans-serif;
+}
+
+#nav-bar {
+	background-color: #000;
+}
+
+#bs {
+	background-color: #000
+	font-size: 100px;
+	font-style: thin italic;
+	color: #544384;
+	font-family: "Roboto", sans-serif;
+}
+
+#slogan {
+	font-size: 50px;
+	font-style: thin italic;
+	color: #1F1737;
+	font-family: "Roboto", sans-serif;
+}
+
+hr {
+	  width: 400px;
 }
