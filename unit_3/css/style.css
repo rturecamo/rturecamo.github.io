@@ -1,7 +1,6 @@
 body {
 	text-align: center;
-	background: url(images/camellia.jpg);
-	background-size: cover;
+	
 }
 
 h1, p {
@@ -9,6 +8,13 @@ h1, p {
 	font-size: 24px;
 	font-style: thin;
 	font-family: "Roboto", sans-serif;
+
+img {
+	background-repeat: no-repeat;
+	background: url(images/camellia.jpg);
+	background-size: cover;
+}
+
 }
 
 #nav-bar {
