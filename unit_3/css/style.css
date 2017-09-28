@@ -1,0 +1,10 @@
+body {
+	text-align: center;
+	background: url(images/camellia.jpeg);
+	background-size: cover;
+}
+
+h1, p {
+	color: #5aa0d1;
+	font-size: 24px;
+}
