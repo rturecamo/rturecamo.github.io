@@ -1,39 +1,27 @@
-body {
-	text-align: center;
-	
-}
-
-h1, p {
-	color: #1F1737;
-	font-size: 24px;
-	font-style: thin;
-	font-family: "Roboto", sans-serif;
-
-img {
-	background-repeat: no-repeat;
-	background: url(images/camellia.jpg);
+body{
+	background: url("../images/camellia.jpg");
 	background-size: cover;
-}
-
-}
-
-#nav-bar {
-	background-color: #000;
-}
-
-#bs {
-	background-color: #000
-	font-size: 100px;
-	font-style: thin italic;
-	color: #544384;
+	text-align: center;
+	color:#000000;
 	font-family: "Roboto", sans-serif;
 }
 
-#slogan {
+p{
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+ul{
+	list-style-type: none;
+	font-weight: 600;
+	margin-bottom: 200px;
+}
+
+#slogan{
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
 	font-size: 50px;
-	font-style: thin italic;
-	color: #1F1737;
-	font-family: "Roboto", sans-serif;
+	color: #fff;
 }
 
 hr {
