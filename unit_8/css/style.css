@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Lato|Old+Standard+TT');
+
+.wrapper {
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  font-family: sans-serif, Lato;
+}
+
+nav {
+	background-color: black;
+	text-align: center;
+	padding: 15px 30px 30px 30px;
+}
+
+nav a {
+    margin: 0 .75em .75em 0;
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 75;
+    font-size: 1em;
+}
+
+#mobile {
+  display: none;
+}
+
+.nav-bar {
+	color: white;
+	text-decoration: none;
+}
+
+a {
+  padding: 10px 10px 10px 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #90a604;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+#imgback {
+  width: 100%;
+}
+
+.centered {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bolder;
+  color: #4C385E;
+}
+
+h2 {
+  font-size: 1.75em;
+  color: #4C385E;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 57px;
+    border: 1px solid #556301;
+    border-radius: 8px;
+    background: #788a03;
+    background: -webkit-gradient(linear, left top, left bottom, from(#788a03), to(#556301));
+    background: -moz-linear-gradient(top, #788a03, #556301);
+    background: linear-gradient(to bottom, #788a03, #556301);
+    text-shadow: #323a01 1px 1px 1px;
+    font: normal normal bold 2em arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid ##647401;
+    background: #90a604;
+    background: -webkit-gradient(linear, left top, left bottom, from(#90a604), to(#667701));
+    background: -moz-linear-gradient(top, #90a604, #667701);
+    background: linear-gradient(to bottom, #90a604, #667701);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #485302;
+    background: -webkit-gradient(linear, left top, left bottom, from(#485302), to(#556301));
+    background: -moz-linear-gradient(top, #485302, #556301);
+    background: linear-gradient(to bottom, #485302, #556301);
+}
+
+main {
+	background-color: white;
+  width: 100%;
+}
+
+
+#firstsection {
+	padding: 70px 0 70px 0;
+	font-family: sans-serif, Lato;
+	font-size: 1.75em;
+	color: white;
+  font-weight: bolder;
+	text-align: center;
+	background-color: black;
+	width: 100%;
+}
+
+#three_column {
+  background-color: white;
+  padding: 20px;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.vlog {
+  padding: 16px;
+  float: left;
+  width: 30%;
+  margin: 2em auto;
+  border: 5px white solid;
+  background-color: black;
+}
+
+.articleheader {
+  font-weight: 70;
+  color: #4C385E;
+  text-decoration: none; 
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.25em;
+}
+
+.articletitle {
+  font-size: 1.25em;
+  font-weight: bold;
+  font-family: sans-serif, Lato;
+  color: white;
+  text-transform: uppercase;
+}
+
+article {
+  background-color: white;
+}
+
+section {
+	background-color: black;
+	color: white;
+	font-family: sans-serif, Lato;
+	text-align: center;
+}
+
+
+footer {
+	background-color: black;
+	text-align: center;
+	padding: 30px 30px 45px 45px;
+	color: white;
+	font-size: 1em;
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+@media screen and (max-width: 720px) {
+
+nav {
+  font-size: .7em;
+}
+
+nav a {
+    width: 100%;
+    padding: .5em;
+    display: none;
+    font-size: 1.3em;
+}
+  
+nav:hover a {
+    display: block;
+}
+
+.centered {
+  font-size: .5em;
+}
+
+#mobile {
+    display: block;
+}
+
+.articletitle {
+  font-size: .5em;
+}
+
+.articleheader {
+ font-size: .5em;
+}
+
+#firstsection {
+  font-size: 1em;
+}
+
+#mobile {
+    display: block;
+}
+
+#three_column {
+  float: none;
+}
+
+.vlog {
+  width:100%;
+  margin: 0;
+  padding: 0px;
+}
+
+.articleheader {
+  font-size: .8em;
+}
+
+.articletitle {
+  font-size: .8em;
+}
+
+footer {
+    font-size: .7em;
+    padding: .6em .6em .6em .6em;
+}
+}
